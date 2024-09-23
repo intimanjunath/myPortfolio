@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -25,66 +24,52 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Object Detection and Person Tracking using Drone"
-              description="Designed a fully operational drone with the ability to identify human activity for surveillance purposes using Raspberry Pi and APM 2.8 flight controller, enabling the UAV to operate autonomously."
-              ghLink="https://github.com/"
-              demoLink="https://manju.web.app/"
+              title="Chatify"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends built with React.js, Material-UI, and Firebase. Features include realtime messaging, image sharing, and supports reactions on messages."
+              ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://chatify-49.web.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Employee Onboarding Website"
-              description="Developed an employee onboarding platform that streamlines document collection, tracks daily attendance, and provides an intuitive administrator interface for managing employee activities."
-              ghLink="https://github.com/"
-              demoLink="https://blogs.manju.tech/"
+              title="Bits-0f-C0de"
+              description="My personal blog page built with Next.js and Tailwind CSS, which takes content from markdown files and renders it using Next.js. Supports dark mode and easy blog writing."
+              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="APP Tracker"
-              description="Developed a time-tracking app for Windows to monitor user activity across various apps and websites, improving digital well-being.Utilized Python libraries to generate detailed activity reports and visualizations, promoting effective time management."
-              ghLink="https://github.com/"
-              demoLink="https://editor.manju.tech/"              
+              title="Editor.io"
+              description="Online code and markdown editor built with React.js. Supports HTML, CSS, and JS code with instant previews."
+              ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://editor.soumya-jit.tech/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Plant AI"
+              description="Used a plant disease dataset from Kaggle and trained an image classifier using 'PyTorch' with CNN and Transfer Learning."
+              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="LLM-RAG (Retrieval-Augmented Generation) "
-              description="Pioneered development of a sophisticated Retrieval-Augmented Generation (RAG) model, integrating LLM with external databases, boosting poem retrieval precision by 45% and generating highly meaningful and contextually rich poetic content."
-              ghLink="https://github.com/"
+              title="AI For Social Good"
+              description="Using NLP for detecting suicide-related posts to aid in prevention."
+              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ" <--------Include a demo link here
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Accident Detection using CNN"
-              description="Developed and deployed machine learning models, including Logistic Regression, Random Forest, SVM, KNN, and Decision Trees, using deep learning and computer vision techniques to detect vehicle collisions from dashcam footage and promptly report accidents to emergency services with validated images."
-              ghLink="https://github.com/"
-              demoLink="https://plant49-ai.manju.com/"
-            />
-          </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/"
-              // demoLink="/"    
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
