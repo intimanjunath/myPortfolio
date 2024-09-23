@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://inti.manjunatha.app/" target="_blank">intimanjunatha.tech</a>
+  <a href="https://inti.manjunatha.app/" target="_blank">intimanjunatha</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/demo.png" />
